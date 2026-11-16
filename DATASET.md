@@ -31,7 +31,7 @@ Each nonblank line is one recorded model call. Core fields are:
 | `item_id` | Benchmark item identifier, interpreted within the run's benchmark |
 | `round` | Zero-based round: independent answer at R0, revision at R1–R4 |
 | `agent_id` | Zero-based panel slot; most panels use 0, 1, 2 |
-| `model` | Model identifier recorded by the runner |
+| `model` | Public model identifier; internal serving aliases are normalized as described below |
 | `raw_output` | Recorded model response |
 | `gold_answer` | Reference answer; MuSiQue may include aliases separated by `|||` |
 | `parsed_answer` | Parser output stored during inference, retained for provenance |
@@ -43,6 +43,15 @@ Fields may vary across historical runs; absent optional fields are not inferred.
 The token comparison requires reported prompt and completion usage and fails
 rather than filling missing values. The reproduction reparses `raw_output` and
 re-scores against `gold_answer` with `scripts/scoring.py`.
+
+## Public model names
+
+Internal serving aliases in the three same-family Qwen runs have been replaced
+with `Qwen-2.5-7B-Instruct` and `Qwen-2.5-72B-Instruct`, in both JSONL model
+fields and metadata panel compositions. Only model identifiers changed: outputs,
+reference answers, usage counts, order, and duplicate rows are preserved. Missing
+historical model fields remain missing. The manifest and archive checksum cover
+the normalized public files; the analysis results are unchanged.
 
 ## Indexing and support
 

@@ -18,3 +18,7 @@ This release reproduces analyses from recorded responses and makes no model call
 
 Packaging correction: normalized mixed LF/CRLF line endings in the original
 `prose_quantities.csv` reference. All cells and numerical values are unchanged.
+
+Public-data preparation: normalize internal serving aliases in the three
+same-family Qwen runs and their metadata to canonical public model names.
+No model response, answer, usage count, or analysis result changed.
