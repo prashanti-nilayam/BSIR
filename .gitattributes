@@ -1,0 +1,5 @@
+# Preserve frozen CSV bytes across checkouts; validators compare exact bytes.
+*.csv -text
+*.py text eol=lf
+*.md text eol=lf
+*.cff text eol=lf

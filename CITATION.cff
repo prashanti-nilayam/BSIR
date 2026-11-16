@@ -1,6 +1,8 @@
 cff-version: 1.2.0
 message: "Please cite the BSIR paper when using this code or experimental traces."
 title: "Borrowed Strength, Imported Risk: Reproduction Code and Experimental Traces"
+repository-code: "https://github.com/PNilayam/BSIR"
+url: "https://github.com/PNilayam/BSIR"
 type: software
 version: 1.0.0
 date-released: 2026-11-15
