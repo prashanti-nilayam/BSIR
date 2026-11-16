@@ -1,0 +1,12 @@
+direction,task,replicate_items,A0_D,A0_P,Gamma,H,fixed_receiver
+Gemma-3-12B <- Qwen-7B,MATH-hard,786,67.8,58.1,-9.7,32.2,0
+Qwen-7B <- Llama-8B,GSM8K,3957,91.9,87.1,-4.8,8.1,0
+Gemini-Flash <- GPT-4.1,MATH-hard,786,79.4,75.9,-3.5,20.6,0
+GPT-4.1 <- Gemini-Flash,MATH-hard,786,75.9,79.4,3.5,24.1,0
+GPT-4.1 <- OSS-120B,MATH-hard,786,75.9,80.2,4.3,24.1,0
+Llama-8B <- Qwen-7B,GSM8K,3957,87.1,91.9,4.8,12.9,0
+Qwen-72B <- OSS-120B,MATH-hard,773,66.5,81.2,14.7,33.5,0
+Llama-1B <- Gemma-2B,GSM8K-diag,100,37.7,61.0,23.3,62.3,0
+Llama-70B <- OSS-120B,MATH-hard,786,44.2,80.2,36.0,55.8,0
+Qwen-7B <- Gemma-3-12B,MATH-hard-fx,786,58.7,67.8,9.1,41.3,1
+Qwen-7B <- OSS-120B,MATH-hard-fx,786,58.7,80.2,21.5,41.3,1

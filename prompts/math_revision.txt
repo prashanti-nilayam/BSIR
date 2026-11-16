@@ -1,0 +1,8 @@
+These are the solutions to the problem from other agents: 
+
+ One agent solution: ```{peer_1_previous_response}```
+
+ One agent solution: ```{peer_2_previous_response}```
+
+ Using the solutions from other agents as additional information, can you provide your answer to the problem? 
+ The original problem is {question}. Your final answer should be a single numerical number, in the form \boxed{answer}, at the end of your response.

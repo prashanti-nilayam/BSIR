@@ -1,0 +1,4 @@
+predictor,slope,intercept,r_squared,exact_p,loo_slope_min,loo_slope_max
+Gamma+,0.614,0.644168,0.776,0.0078,0.28,0.76
+rho,11.971,0.156876,0.1455,0.356,5.46,15.39
+Gamma+ x rho,1.088,0.605487,0.995,0.0002,1.08,1.12

@@ -1,0 +1,13 @@
+direction,task,fixed_receiver,new_rebuttal_control,matched_replicate_items,debate_calls_per_item,direct_calls_per_item,debate_prompt_tokens_per_item,debate_completion_tokens_per_item,debate_total_tokens_per_item,direct_prompt_tokens_per_call,direct_completion_tokens_per_call,direct_total_tokens_per_call,prompt_token_ratio,completion_token_ratio,total_token_ratio,direct_peer_R0_accuracy,debate_best_majority_accuracy,debate_best_majority_round,debate_best_receiver_accuracy,debate_best_receiver_round
+Gemma-3-12B <- Qwen-7B,MATH-hard,0,0,722,15,1,50201.9,4980.2,55182.2,142.0,683.7,825.7,353.56,7.28,66.83,62.6,73.0,R2,73.1,R2
+Qwen-7B <- Llama-8B,GSM8K,0,0,3957,15,1,20670.2,1859.7,22529.9,130.7,227.5,358.2,158.16,8.18,62.91,87.1,92.8,R3,92.9,R3
+Gemini-Flash <- GPT-4.1,MATH-hard,0,0,786,15,1,81868.7,10484.8,92353.5,123.3,1107.1,1230.4,664.03,9.47,75.06,75.9,82.6,R1,82.1,R1
+GPT-4.1 <- Gemini-Flash,MATH-hard,0,0,784,15,1,72372.2,8114.3,80486.6,119.7,1163.9,1283.5,604.82,6.97,62.71,79.5,82.5,R2,82.2,R3
+GPT-4.1 <- OSS-120B,MATH-hard,0,0,786,15,1,50035.3,4832.1,54867.5,183.3,934.9,1118.1,272.98,5.17,49.07,80.2,81.4,R1,81.4,R4
+Llama-8B <- Qwen-7B,GSM8K,0,0,3957,15,1,21431.8,2100.0,23531.7,127.0,244.9,372.0,168.71,8.57,63.26,91.9,91.5,R4,91.5,R4
+Qwen-72B <- OSS-120B,MATH-hard,0,0,764,15,1,58888.6,8870.3,67758.9,183.1,906.6,1089.7,321.62,9.78,62.18,81.5,81.3,R4,81.3,R4
+Llama-1B <- Gemma-2B,GSM8K-diag,0,0,100,15,1,20934.4,2263.1,23197.5,107.1,160.6,267.7,195.47,14.09,86.66,61.0,48.0,R2,43.5,R1
+Llama-70B <- OSS-120B,MATH-hard,0,0,776,15,1,46889.8,5358.9,52248.7,183.2,928.9,1112.1,255.97,5.77,46.98,80.5,72.8,R2,72.1,R2
+Qwen-7B <- Gemma-3-12B,MATH-hard-fx,1,0,784,15,1,50968.0,4921.6,55889.6,127.7,1014.7,1142.4,399.07,4.85,48.92,67.9,68.8,R2,69.0,R2
+Qwen-7B <- OSS-120B,MATH-hard-fx,1,0,786,15,1,40923.0,4502.2,45425.2,183.3,934.9,1118.1,223.27,4.82,40.63,80.2,79.8,R4,79.0,R4
+Qwen-7B <- Qwen-72B,MATH-hard-fx,1,1,786,15,1,51437.7,5502.2,56939.9,148.2,758.1,906.3,347.02,7.26,62.83,65.8,61.2,R1,61.7,R1

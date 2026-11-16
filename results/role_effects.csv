@@ -1,0 +1,9 @@
+population,contrast,matched_replicate_items,mean_pp,exact_p,bootstrap_lo,bootstrap_hi
+intent to treat,Recovery: honest vs homogeneous,12717,20.4,0.0039,17.62,23.28
+intent to treat,Corruption: honest vs homogeneous,12717,-0.78,0.3555,-2.28,0.74
+intent to treat,Recovery: adversarial vs honest,12717,-15.25,0.0156,-17.94,-12.61
+intent to treat,Corruption: adversarial vs honest,12717,7.67,0.0312,5.98,9.37
+per protocol,Recovery: honest vs homogeneous,10580,20.08,0.0039,17.23,23.08
+per protocol,Corruption: honest vs homogeneous,10580,-0.22,0.7656,-1.91,1.46
+per protocol,Recovery: adversarial vs honest,10580,-16.63,0.0078,-19.53,-14.07
+per protocol,Corruption: adversarial vs honest,10580,7.77,0.0586,5.85,9.7

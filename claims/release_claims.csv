@@ -1,0 +1,13 @@
+quantity,paper,decimals,location
+same_family_n_items,786,0,Section 4.4
+same_family_Gamma,7.1,1,Section 4.4
+same_family_rho,52.2,1,Section 4.4
+same_family_rho_n,180,0,Section 4.4
+same_family_rho_lo,38.5,1,Section 4.4
+same_family_rho_hi,65.8,1,Section 4.4
+same_family_gain,3.4,1,Section 4.4
+token_positive_directions,9,0,Section 4.6
+token_ratio_min,40.6,1,Section 4.6
+token_ratio_max,86.7,1,Section 4.6
+token_ratio_median,62.2,1,Section 4.6
+token_debate_wins,3,0,Section 4.6

@@ -1,0 +1,10 @@
+quantity,statistic,value,exact_p,r_squared
+"r(Gamma, honest net gain)",r,0.973,0.0009,
+"r(Gamma, adversarial corruption rate)",r,0.729,0.0387,
+"r(Gamma, corruption vs homogeneous)",r,0.607,0.0914,
+"r(Gamma, rho)",r,0.549,0.1544,
+"r(H, rho)",r,0.113,0.7973,
+"r(rho, upsilon)",r,0.611,0.112,
+Gamma+,slope,0.759,,0.9925
+rho,slope,14.197,,0.159
+Gamma+ x rho,slope,1.087,,0.9951

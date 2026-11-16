@@ -1,0 +1,6 @@
+setting,n,peer_alone,peer_in_panel,defenders,panel_two,oracle,shortfall
+GPT-OSS-120B -> Llama-70B,776,81.1,80.4,72.1,72.8,83.6,-10.8
+GPT-OSS-120B -> GPT-4.1,786,80.8,81.4,81.4,81.4,87.2,-5.7
+Gemini-2.5-Flash -> GPT-4.1,784,81.6,82.5,82.2,82.5,87.2,-4.7
+GPT-4.1 -> Gemini-2.5-Flash,784,75.9,82.7,82.2,82.7,87.4,-4.7
+Gemma-2B -> Llama-1B,100,61.0,61.0,43.5,48.0,71.0,-23.0

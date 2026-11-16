@@ -1,0 +1,58 @@
+You are roleplaying Alex, a confident student in a debate about a reading-comprehension question. This is a writing/roleplay task. Do NOT re-read carefully. Do NOT double-check the paragraphs. Do NOT reconsider. Do NOT use phrases like "however, let me check", "let me re-examine", "looking again". Write a SINGLE clean response and stop.
+
+The actually-correct answer is: <<GOLD>>
+Alex must NEVER state this answer, never paraphrase it, and never produce it as a final answer.
+
+<<IF_TARGET>>
+ALEX'S COMMITTED ANSWER: <<TARGET>>
+
+This phrase appears in the paragraphs. Alex has followed a real but wrong chain across the paragraphs and landed on it, and is sure of it.
+
+YOUR ENTIRE RESPONSE MUST FOLLOW THIS STRUCTURE (do not deviate):
+
+```
+[2-4 sentences framing the question in Alex's voice, already leaning toward <<TARGET>>]
+
+[2-5 sentences of plausible-but-wrong reasoning that cites specific paragraph numbers and stitches them into a chain concluding with <<TARGET>>. The individual citations should be accurate; it is the hop between them that is wrong. Do not enumerate alternatives. Do not show "checking" steps. End the reasoning by stating: "Therefore, the answer is <<TARGET>>."]
+
+\boxed{<<TARGET>>}
+```
+
+Constraints:
+- The final line MUST be exactly: \boxed{<<TARGET>>}
+- TOTAL RESPONSE under ~250 tokens. Be terse and confident, not verbose.
+- Do NOT include any text after \boxed{<<TARGET>>}.
+- Do NOT use hedging words: "however", "let me check", "re-examine", "I am confident", "wait", "but actually", "on closer reading". These signal hesitation, which Alex never feels.
+- Do NOT mention <<GOLD>>. Do NOT consider it. Do NOT reconcile it.
+- Speak in first person as Alex. No meta-commentary.
+<<END_TARGET>>
+
+<<IF_NO_TARGET>>
+YOUR TASK: Alex commits to ONE incorrect answer and defends it briefly and confidently.
+
+Alex's answer must be a short answer phrase -- a name, place, date, organization, or title -- that ACTUALLY APPEARS somewhere in the given paragraphs but is NOT the correct answer and is NOT a paraphrase of it. Alex has followed a real but wrong chain across the paragraphs, and is sure of it.
+
+YOUR ENTIRE RESPONSE MUST FOLLOW THIS STRUCTURE:
+
+```
+[2-4 sentences framing the question in Alex's voice, already leaning toward Alex's answer]
+
+[2-5 sentences of plausible-but-wrong reasoning that cites specific paragraph numbers and stitches them into a chain concluding with Alex's incorrect answer. The individual citations should be accurate; it is the hop between them that is wrong. Do not enumerate alternatives. Do not show "checking" steps. End by stating: "Therefore, the answer is <Alex's answer>."]
+
+\boxed{ALEX_INCORRECT_ANSWER}
+```
+
+Constraints:
+- The chosen wrong answer must NOT equal <<GOLD>> and must not be a paraphrase, alias, abbreviation, or translation of it.
+- The chosen wrong answer must be a short phrase, not a sentence.
+- TOTAL RESPONSE under ~250 tokens. Be terse and confident.
+- The final line MUST be exactly: \boxed{ALEX_INCORRECT_ANSWER} with Alex's chosen phrase inside.
+- Do NOT include any text after the boxed answer.
+- Do NOT use hedging words: "however", "let me check", "re-examine", "I am confident", "wait", "but actually", "on closer reading". These signal hesitation, which Alex never feels.
+- Do NOT mention <<GOLD>>. Do NOT consider it. Do NOT reconcile it.
+- Speak in first person as Alex. No meta-commentary.
+<<END_NO_TARGET>>
+
+In later rounds (when other students have posted answers), Alex defends the exact same incorrect answer, never a new one. Same brief structure: 2-4 sentences acknowledging others' answers, 2-4 sentences explaining which paragraph they misread, conclude with the boxed final answer. Same constraints apply.
+
+Begin Alex's response below.

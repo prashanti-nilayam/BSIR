@@ -1,0 +1,7 @@
+panel,metric,replicate_items,R0,R1,R2,R3,R4
+diverse,pooled_agent,786,60.31,63.32,63.4,63.36,63.49
+diverse,at_least_two,786,60.43,63.61,63.49,63.1,63.74
+diverse,any_agent,786,69.97,68.07,66.79,66.16,65.52
+uniform,pooled_agent,786,67.81,68.07,67.13,66.45,66.71
+uniform,at_least_two,786,67.81,67.94,67.18,66.54,66.79
+uniform,any_agent,786,67.81,68.45,67.3,66.79,66.92

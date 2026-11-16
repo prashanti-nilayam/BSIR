@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "Please cite the BSIR paper when using this code or experimental traces."
+title: "Borrowed Strength, Imported Risk: Reproduction Code and Experimental Traces"
+type: software
+version: 1.0.0
+date-released: 2026-11-15
+license: MIT
+authors:
+  - family-names: Nilayam
+    given-names: Prashanti
+  - family-names: Ramanna
+    given-names: Kiran Kumar
+  - family-names: Tumbade
+    given-names: Prashil
+  - family-names: Bhat
+    given-names: Nagaraj N
+  - family-names: Nayak
+    given-names: Sankalp
+abstract: "Reproduces the BSIR camera-ready analyses from recorded model-output traces. Original traces and derived results are separately licensed CC BY 4.0."

@@ -1,0 +1,11 @@
+# Downloaded trace data and generated outputs
+/traces/
+/reproduced/
+/verification/
+/.cache/
+/.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+.env
+.env.*

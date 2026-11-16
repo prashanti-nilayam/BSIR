@@ -1,0 +1,26 @@
+quantity,value,source
+discovery_directions,9,panel definitions
+confirmatory_directions,2,panel definitions
+total_directions,11,panel definitions
+primary_agents,3,observed trace dimensions
+primary_rounds,5,observed trace dimensions
+math_hard_items,262,observed trace items
+gsm8k_items,1319,observed trace items
+small_model_diagnostic_items,100,matched support
+musique_items,300,observed trace items
+musique_heterogeneous_panels,6,observed trace panels
+musique_matched_items,300,six-panel matched support
+musique_agent_round_records,27000,six panels x 300 items x 3 agents x 5 rounds
+musique_agent_round_records_per_panel,4500,300 items x 3 agents x 5 rounds
+musique_replicates_per_condition,1,panel definitions
+discovery_matched_replicate_items,12717,matched support
+discovery_defender_condition_observations,76302,2 defender slots x 3 conditions
+confirmatory_matched_replicate_items,1572,matched support
+confirmatory_defender_condition_observations,9432,2 defender slots x 3 conditions
+per_protocol_matched_replicate_items,10580,adversary parsed-wrong R0-R4
+bootstrap_seed,260719826,analysis constant
+bootstrap_replicates,4000,analysis constant
+math_completion_token_budget,4096,protocol constant
+gsm8k_completion_token_budget,1024,protocol constant
+primary_temperature,0,protocol constant
+primary_replicates,3,panel definitions

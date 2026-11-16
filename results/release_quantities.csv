@@ -1,0 +1,13 @@
+quantity,value,paper,agrees
+same_family_n_items,786,786,YES
+same_family_Gamma,7.1,7.1,YES
+same_family_rho,52.2,52.2,YES
+same_family_rho_n,180,180,YES
+same_family_rho_lo,38.5,38.5,YES
+same_family_rho_hi,65.8,65.8,YES
+same_family_gain,3.4,3.4,YES
+token_positive_directions,9,9,YES
+token_ratio_min,40.6,40.6,YES
+token_ratio_max,86.7,86.7,YES
+token_ratio_median,62.2,62.2,YES
+token_debate_wins,3,3,YES

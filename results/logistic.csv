@@ -1,0 +1,11 @@
+outcome,specification,term,n,odds_ratio,ci_lo,ci_hi,p
+recovery,pair fe three condition,honest vs homogeneous,14264,6.582,2.237,19.367,0.0038
+recovery,pair fe three condition,adversarial vs homogeneous,14264,1.914,1.058,3.464,0.0356
+corruption,pair fe three condition,honest vs homogeneous,62038,1.43,0.609,3.357,0.3625
+corruption,pair fe three condition,adversarial vs homogeneous,62038,7.345,1.097,49.158,0.0419
+recovery,pair fixed effects,adversarial vs honest,9493,0.293,0.137,0.624,0.0057
+corruption,pair fixed effects,adversarial vs honest,41375,5.17,1.7,15.725,0.0093
+recovery,gap,adversarial vs honest,9493,0.466,0.319,0.68,0.0016
+recovery,gap,adversarial x Gamma,9493,0.622,0.548,0.706,0.0
+corruption,gap,adversarial vs honest,41375,4.315,1.269,14.673,0.0249
+corruption,gap,adversarial x Gamma,41375,1.266,0.912,1.757,0.1361

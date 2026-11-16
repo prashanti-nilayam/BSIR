@@ -1,0 +1,15 @@
+quantity,Qwen,Gemma,OSS-120B
+Gamma (pp),0.0,9.12,21.5
+rho (%),,62.16,60.35
+R1 gain (pp),0.0,7.89,16.92
+R4 gain (pp),0.0,11.05,21.37
+R1 recovery (%),2.92,25.26,42.94
+R1 honest corruption (%),2.06,4.72,2.21
+upsilon (%),,2.6,6.0
+rho CI lo,,50.0,51.47
+rho CI hi,,73.66,69.04
+upsilon CI lo,,0.85,3.82
+upsilon CI hi,,4.67,8.45
+rho exposures,,259,396
+upsilon exposures,,924,916
+matched replicate-items,786,786,786

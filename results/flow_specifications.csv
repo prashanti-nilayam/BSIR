@@ -1,0 +1,5 @@
+predictor,slope,intercept,r_squared,max_residual
+Gamma+ x rho,1.0876,0.6055,0.995,1.07
+mixed_gap+ x rho,1.0717,0.9358,0.9898,1.51
+S x rho,1.0883,-1.7926,0.968,2.3
+S x rho - T x eta,1.0272,0.0767,0.9671,3.38
