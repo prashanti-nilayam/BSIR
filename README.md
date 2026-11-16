@@ -4,9 +4,9 @@ Reproduction code and experimental traces for **Borrowed Strength, Imported
 Risk: Capability Gaps and Reception Govern Heterogeneous LLM Debate**, accepted
 at EACL 2027.
 
-Repository: https://github.com/PNilayam/BSIR
+Repository: https://github.com/prashanti-nilayam/BSIR
 
-[Download v1.0.0 data and bundles](https://github.com/PNilayam/BSIR/releases/tag/v1.0.0).
+[Download v1.0.0 data and bundles](https://github.com/prashanti-nilayam/BSIR/releases/tag/v1.0.0).
 
 Prashanti Nilayam, Kiran Kumar Ramanna, Prashil Tumbade, Nagaraj N Bhat, and
 Sankalp Nayak — ServiceNow.
@@ -48,7 +48,7 @@ then install and verify it:
 Alternatively, download and verify the fixed release asset directly:
 
 ```bash
-.venv/bin/python scripts/fetch_traces.py --url https://github.com/PNilayam/BSIR/releases/download/v1.0.0/bsir-v1.0.0-traces.tar.gz
+.venv/bin/python scripts/fetch_traces.py --url https://github.com/prashanti-nilayam/BSIR/releases/download/v1.0.0/bsir-v1.0.0-traces.tar.gz
 ```
 
 The complete reproduction ZIP includes the same code and an already populated `traces/`
